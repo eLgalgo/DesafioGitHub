@@ -582,3 +582,50 @@ select{
     
 }
 /*SMARTPHONE*/
+
+
+/*Animaciones*/
+/*Linea de tiempo*/
+.animaUno{
+    animation-name: slide;
+    animation-duration: 3s;
+}
+
+/*Keyframe*/
+
+@keyframes slide{
+
+    0%{
+        transform: translateX(-200px);
+        width: 300%
+    }
+
+    50%{
+        transform: translateX(-100px);
+        width: 200%
+    }
+
+    100%{
+        transform: translateX(0);
+        width: 100%
+    }
+}
+
+#animaDos{
+    animation-name: Difuminado;
+    animation-duration: 3s;
+}
+
+/*Keyframe*/
+
+@keyframes Difuminado{
+
+    from{
+        opacity: 0%;
+    }
+
+    to{
+        opacity: 100%;
+    }
+}
+/*Animaciones*/
